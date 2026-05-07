@@ -25,7 +25,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install Playwright Browsers
+      - name: Install Chromium Browsers
         run: npx playwright install --with-deps
 
       - name: Run Swaglabs Tests
