@@ -1,0 +1,1 @@
+export const SWAGLABS_URL = 'https://www.saucedemo.com';
