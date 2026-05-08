@@ -31,7 +31,7 @@ export default defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
     testIdAttribute: 'data-test',
-    headless: process.env.CI ? true : false, // show browser
+    headless: true, // show browser
     launchOptions: {
       slowMo: process.env.CI ? 0 : 2000
     },
